@@ -1,0 +1,324 @@
+z
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="ellabektas.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="home.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/70d0ecbfc3.js" crossorigin="anonymous"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQT1ZR87Z5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-NQT1ZR87Z5');
+  </script>
+
+</head>
+
+
+<body>
+
+
+
+  <main>
+    <nav>
+      <ul>
+        <li class="logo">Ella Bektas</li>
+        <li class="items"><a href="home.html">Home</a></li>
+
+        <li class="items"><a href="about.html" class="active">About</a></li>
+        <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+      </ul>
+    </nav>
+
+    <div class="layout">
+
+      <div class="single-container align-center pb-small pt-small">
+        <div class="image-container">
+          <img src="ds-hero-2.png" alt="Design System Hero">
+        </div>
+      </div>
+
+      <div class="single-container bg-white pr-medium pl-medium pt-medium pb-small">
+        <p class="font-bold text-3xl">developing a design system.</p>
+      </div>
+
+      <div class="double-container bg-white pr-medium pl-medium pb-medium">
+
+        <div class="single-container">
+          <p class="align-left text-base font-bold">role.</p>
+          <p class="align-left text-base font-thin">UI Designer</p>
+
+          <p class="align-left text-base font-bold pt-medium">responsibilities.</p>
+          <p class="align-left text-base font-thin">UI Design</p>
+          <p class="align-left text-base font-thin">Research</p>
+          <p class="align-left text-base font-thin">Atomic Design</p>
+        </div>
+
+        <div class="justify-center">
+          <p class="justify-center text-base font-normal pb-xs">As the first designer at Intellegens, I tackled improvements for our main product, Alchemite. Early on, I noticed our engineers struggled without a unified design system.</p>
+          <p class="justify-center text-base font-normal">
+            This case study reveals how we built a practical design system, merging UX and AI. Our goal? To make work smoother for everyone and boost our product's quality. Follow our journey from idea to implementation, where simplicity and usefulness were our guiding principles.
+            </p>
+
+        </div>
+    
+      </div>
+
+      <div class="single-container pl-medium pr-medium pt-medium pb-medium">
+        <div class="titles">
+          <p class="font-bold">challenge.</p>
+        </div>
+        <p class="pt-small text-4xl font-thin">Developers found it challenging to build features that were consistent without a design system.</p>
+      </div>
+
+      <div class="single-container pr-medium pl-medium pt-medium pb-small bg-white">
+        <p class="font-bold text-3xl">auditing.</p>
+        <p class="pt-small text-4xl font-thin">I started by auditing the components on each page throughout Alchemite to assess our level of consistency.</p>
+      </div>
+
+      <div class="single-container align-center pt-small pb-small bg-white">
+        <div class="image-container">
+          <img src="ds-audit.png" alt="Design System Audit">
+          <div class="overlay">
+            <h1>Audit of existing components</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="double-container pl-medium pr-medium pt-medium pb-medium bg-white">
+        <div class="titles">
+          <p class="align-left font-bold">requirements.</p>
+        </div>
+
+        <div class="single-container">
+          <p class="text-3xl font-thin">What were the key findings from the audit?</p>
+          <p class="pt-small text-base font-normal">The main problem was that whenever a new feature needed a component, like a toolbar, engineers built it from scratch every time. Even though they used Tailwind for styling, each engineer made the feature slightly differently, leading to inconsistency.</p>
+        </div>
+
+      </div>
+
+      <div class="double-container pl-medium pr-medium pb-medium bg-white">
+        <div class="titles">
+          <p class="pt-small align-left font-bold">business goals.</p>
+        </div>
+
+        <div class="single-container">
+
+          <p class="pt-small text-base font-normal">The business aimed to deliver features faster and more consistently to keep both new and existing customers engaged. Therefore, enhancing development speed became the primary goal of this project.</p>
+        </div>
+      </div>
+
+      <div class="single-container pr-medium pl-medium pt-medium pb-small">
+        <p class="font-bold text-3xl">research.</p>
+        <p class="pt-small text-4xl font-thin">after defining the requirements and business goals, I started researching design systems and methods to integrate them into teams.</p>
+      </div>
+
+      <div class="single-container align-center pb-small pt-small pl-medium pr-medium">
+        <div class="image-container">
+          <img src="ds-research.png" alt="Design System Research">
+        </div>
+      </div>
+
+      <div class="double-container pl-medium pr-medium pt-medium pb-medium ">
+        <div class="titles">
+          <p class="align-left font-bold">requirements.</p>
+        </div>
+
+        <div class="single-container">
+          <p class="text-3xl font-thin">why not use an existing design system?</p>
+          <p class="pt-small text-base font-normal">After researching existing design systems and consulting with the development team, we concluded that we wanted to gradually implement our own design system. This approach would afford us greater flexibility than relying on existing ones.</p>
+        </div>
+
+      </div>
+
+      <div class="single-container align-center pb-large pl-medium pr-medium">
+        <div class="image-container">
+          <img src="ds-requirements.svg" alt="Design System Requirements">
+        </div>
+      </div>
+
+
+
+      <div class="single-container pr-medium pl-medium pt-medium  bg-white">
+        <p class="font-bold text-3xl">design.</p>
+        <p class="pt-small text-4xl font-thin">how i created and shared the designs with the engineering team.</p>
+      </div>
+
+      <div class="double-container pl-medium pr-medium pt-medium pb-medium bg-white">
+        <div class="titles">
+          <p class="pt-small align-left font-bold">selecting designs.</p>
+        </div>
+
+        <div class="single-container">
+
+          <p class="pt-small text-base font-normal">Going forward, we established a process for adding new components to the design system. For existing components, we agreed to select the one we wanted to use, and then I would integrate it into the Figma file.
+          </p>
+        </div>
+      </div>
+
+      <div class="double-container pl-medium pr-medium pt-medium pb-medium bg-white">
+        <div class="titles">
+          <p class="pt-small align-left font-bold">creating new components..</p>
+        </div>
+
+        <div class="single-container">
+
+          <p class="pt-small text-base font-normal">When creating a new component, we would first identify the component needed. I would then propose designs using Tailwind’s styling, which the team would review and agree upon. Once finalized, I added the design to the Figma file, and the engineers would implement it during our UI sessions.
+          </p>
+        </div>
+      </div>
+
+      <div class="single-container align-center pb-large pl-medium pr-medium bg-white">
+        <div class="image-container">
+          <img src="ds-process.svg" alt="Design System Process">
+        </div>
+      </div>
+
+      <div class="single-container pr-medium pl-medium pt-medium ">
+        <p class="font-bold text-3xl">result.</p>
+        <p class="pt-small text-4xl font-thin">as a result, we significantly improved the consistency of features and accelerated the development process.</p>
+      </div>
+
+      <div class="double-container pl-medium  pt-medium pb-medium">
+        <div class="single-container ">
+          <p class="font-bold text-3xl justify-center">cohesive  fima file. </p>
+        </div>
+        <div class="single-container align-right">
+          <div class="image-container">
+            <img src="ds-result-1.png" alt="Figma File">
+          </div>
+        </div>
+      </div>
+
+      <div class="double-container  pl-medium pr-medium pt-medium pb-medium">
+        <div class="single-container ">
+          <p class="font-bold text-3xl justify-center">interactive prototypes and variants.</p>
+        </div>
+        <div class="single-container align-right">
+          <div class="image-container">
+            <img src="ds-result-2.png" alt="Prototypes">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="double-container  pl-medium pr-medium pt-medium pb-medium">
+        <div class="single-container ">
+          <p class="font-bold text-3xl">designs reflective of codebase.</p>
+        </div>
+        <div class="single-container">
+          <p class="text-base font-normal"></p>
+        </div>
+      </div>
+
+      <div class="single-container align-center pb-large pl-medium pr-medium">
+        <div class="image-container">
+          <img src="ds-result-3.png" alt="Final Design System">
+        </div>
+      </div>
+
+
+
+
+
+
+    </div>
+
+
+
+    <div class="box6 .padding-large">
+      <section class="button .padding-bottom-large">
+        <a href="#" id="back-to-top-btn">Back to Top</a>
+      </section>
+    </div>
+
+    <div class="single-white-background padding-top-large">
+      <div>
+        <div class="titles">
+          <h1>More Case Studies</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="box5">
+      <div class="cs-grid">
+
+
+        <div class="grid-item">
+          <div class="cs-container">
+
+            <div class="cs-grid-image">
+              <img src="projects-hero.png" alt="Projects Hero Image">
+              <a href="projects-case-study.html" class="overlay-link">
+                <div class="overlay"></div>
+              </a>
+            </div>
+
+            <h1>Instroducing Projects</h1>
+            <h2>2024</h2>
+          </div>
+        </div>
+
+
+
+        <div class="grid-item">
+          <div class="cs-container">
+
+              <div class="cs-grid-image-1">
+                  <img src="dashboard-hero.png" alt="Dashboard Hero Image">
+                  <a href="dashboard-case-study.html" class="overlay-link">
+                      <div class="overlay"></div>
+                  </a>
+              </div>
+
+              <h1>Model Dashboard Redesign</h1>
+              <h2>2023</h2>
+          </div>
+      </div>
+
+      </div>
+
+
+
+    </div>
+
+
+  </main>
+
+
+
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-title">Find Me On</div>
+
+      <div class="socials">
+        <li class="media">
+          <a href="https://www.linkedin.com/in/ella-bektas-2111061a9" target="_blank" class="active"><i
+              class="fab fa-linkedin"></i></a>
+        </li>
+
+        <li class="media">
+          <a href="https://github.com/Ella-Bektas" class="active" target="_blank"><i class="fab fa-github"></i></a>
+        </li>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
